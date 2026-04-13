@@ -1,3 +1,4 @@
+import Contador from "./components/Contador";
 import Teoria from "./components/Teoria";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <h1 className="text-center">Hola mundo con react</h1>
       {/* <Teoria comisionProps={comision} moduloProps={modulo}></Teoria> */}
       <Teoria comisionProps={comision} moduloProps={modulo} nombreprops={'ejemplo'}/>
+      <Contador></Contador>
     </main>
   );
 }
