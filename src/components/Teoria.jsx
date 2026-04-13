@@ -1,4 +1,5 @@
-const Teoria = (props) => {
+// const Teoria = (props) => {
+const Teoria = ({comisionProps, moduloProps}) => {
 
   return (
     <section>
@@ -30,7 +31,7 @@ const Teoria = (props) => {
       </p>
 
       <div className="alert alert-primary" role="alert">
-        Curso fullstack comision: {props.comisionProps} {props.moduloProps}
+        Curso fullstack comision: {comisionProps} {moduloProps}
       </div>
     </section>
   );

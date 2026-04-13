@@ -8,8 +8,8 @@ function App() {
   return (
     <main className="container my-3">
       <h1 className="text-center">Hola mundo con react</h1>
-      {/* <Teoria ></Teoria> */}
-      <Teoria comisionProps={comision} moduloProps={modulo} />
+      {/* <Teoria comisionProps={comision} moduloProps={modulo}></Teoria> */}
+      <Teoria comisionProps={comision} moduloProps={modulo} nombreprops={'ejemplo'}/>
     </main>
   );
 }
